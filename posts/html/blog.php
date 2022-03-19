@@ -141,6 +141,7 @@ $result=$db_obj->select('post as p',array('p.id ','p.title','p.text','p.active',
                             <a href='https://twitter.com/share?url=".$site_url."&amp;text=".str_replace(" ","_",$row->title)."&amp;hashtags=".str_replace(" ","_",$row->title)."' target='_blank'>
                             twitter
                         </a>
+                          <a href='https://t.me/share/url?url=".$site_url."&text=".str_replace(" ","_",$row->title)."!'>Telegram</a>
                        
                         
                             </div> 
